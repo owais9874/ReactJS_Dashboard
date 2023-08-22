@@ -12,11 +12,7 @@ import {
   BiBell,
 } from "react-icons/bi";
 import { BsList, BsX } from "react-icons/bs";
-import {
-  FaMoon,
-} from "react-icons/fa";
-
-// import {Form} from "react-bootstrap";
+import { FaMoon } from "react-icons/fa";
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -44,7 +40,6 @@ const Navbar = () => {
             <a href="#a">
               <BiSearch />
             </a>
-            {/* <Form></Form> */}
           </li>
           <li>
             <a href="#a">
