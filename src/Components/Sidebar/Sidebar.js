@@ -42,8 +42,8 @@ const Sidebar = () => {
                 <div className="sidebar-submenu" style={{ display: "block" }}>
                   <ul>
                     <li className="defaultactive">
-                      <Link to="/" className="active">
-                        Default
+                      <Link to="main" className="active">
+                        Main
                       </Link>
                     </li>
                     <li className="defaultactive">

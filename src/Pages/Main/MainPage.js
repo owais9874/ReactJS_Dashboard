@@ -1,6 +1,5 @@
 import React from "react";
 import "./MainPage.css";
-// import { LoginForm, SignUp } from "../../Components/AllForm";
 
 import {
   AuthorsAchievement,
@@ -24,8 +23,6 @@ export default function MainPage() {
   return (
     <>
       <main class="page-content app-main">
-        {/* <LoginForm/>
-        <SignUp/> */}
         <div class="all-cards">
           <ActiveProjCard />
           <EarningProjCard />
