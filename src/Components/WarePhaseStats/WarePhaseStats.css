@@ -1,0 +1,12 @@
+.ware-phase-stats-chart {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 30%;
+  margin-right: 10px;
+}
+#socialchart {
+  width: 100%;
+  height: 350px;
+  font-size: 12px;
+}

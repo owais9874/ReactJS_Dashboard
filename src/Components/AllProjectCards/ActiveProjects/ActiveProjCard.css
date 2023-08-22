@@ -1,0 +1,35 @@
+.default-card {
+  width: 50%;
+  /* margin: 20px; */
+  z-index: 6;
+}
+.project-card {
+  background-image: url(../../../assist/images/vector-1.png);
+  background-position: center;
+  background-size: cover;
+  background-color: #f1416c;
+  color: #fff;
+  height: 230px;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+h3.active-count {
+  color: #ffffff !important;
+  margin: 0px;
+  font-size: 2.5rem !important;
+  font-weight: 600;
+}
+.project-card span {
+  opacity: 0.75;
+}
+.pending-project {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+}
+.progress {
+  height: 8px !important;
+}
+.progress-bar {
+  background-color: #ffffff !important;
+}

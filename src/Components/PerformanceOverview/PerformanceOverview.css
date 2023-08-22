@@ -1,0 +1,39 @@
+.performance-bubble-chart {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .performance-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .performance-overview h3 {
+    margin: 0px;
+    color: #181c32;
+    font-weight: 600;
+    font-size: 1.275rem;
+  }
+  .performance-overview span {
+    color: #b5b5c3;
+    font-weight: 500;
+  }
+  
+  .performance-overview .achievement-tabs.active {
+    color: #7e8299 !important;
+    background-color: #f5f8fa !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+  }
+  .performance-overview .achievement-tabs {
+    border-radius: 0px !important;
+    margin: 10px 20px 10px 0px;
+    border: 0px !important;
+    height: auto !important;
+    width: auto !important;
+    color: #a1a5b7;
+  }
+  .performance-overview .achievement-tabs:hover {
+    color: #a1a5b7;
+  }

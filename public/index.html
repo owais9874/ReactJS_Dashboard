@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+
+    <!-- Bootstrap 5.2.2 cdn css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+
+  <!--Jquery CDN script-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <!-- Bootstrap 5.2.2 cdnjs -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Sidebar toggle and dropdown menu -->
+  <script>
+    jQuery(function ($) {
+      $(".sidebar-dropdown > .hkdi").click(function () {
+        $(".sidebar-submenu").slideUp(200);
+        if ($(this).parent().hasClass("active")) {
+          $(".sidebar-dropdown").removeClass("active");
+          $(this).parent().removeClass("active");
+        } else {
+          $(".sidebar-dropdown").removeClass("active");
+          $(this).next(".sidebar-submenu").slideDown(200);
+          $(this).parent().addClass("active");
+        }
+      });
+    });
+  </script>
+
+  <!-- Sidebar dropdown inner submenu  -->
+  <script>
+    jQuery(function ($) {
+      $(".submenu-dropdown > .hkdi2").click(function () {
+        $(".submenu-inner-menu").slideUp(200);
+        if ($(this).parent().hasClass("active")) {
+          $(".submenu-dropdown").removeClass("active");
+          $(this).parent().removeClass("active");
+        } else {
+          $(".submenu-dropdown").removeClass("active");
+          $(this).next(".submenu-inner-menu").slideDown(200);
+          $(this).parent().addClass("active");
+        }
+      });
+    });
+  </script>
+
+  <script>
+    jQuery(function ($) {
+      $(".defaultactive").click(function () {
+        if ($(this).children().hasClass("active")) {
+          $(".defaultactive a").removeClass("active");
+          $(this).children().removeClass("active");
+        } else {
+          $(".defaultactive a").removeClass("active");
+          $(this).children().addClass("active");
+        }
+      });
+    });
+  </script>
+
+  <script>
+    jQuery(function ($) {
+      $(".fgr").click(function () {
+        if ($(".main-sidebar").hasClass("toggled")) {
+          $(".main-sidebar").removeClass("toggled");
+        } else {
+          $(".main-sidebar").addClass("toggled");
+        }
+      });
+    });
+  </script>
+
+  <!-- Doughnut Chart Cycle  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.min.js"></script>
+  <script>
+    // Doughnut Chart
+    $(document).ready(function () {
+      var options = {
+        responsive: false,
+      };
+      new Chart($("#canvas1"), {
+        type: "doughnut",
+        // startAngle: 45,
+        // innerRadius: 90,
+        data: {
+          labels: [
+            // "",
+            // "",
+            // ""
+          ],
+          datasets: [
+            {
+              data: [20, 45, 35],
+              backgroundColor: ["#50cd89", "#E4E6EF", "#009ef7"],
+            },
+          ],
+        },
+        options: { responsive: false },
+      });
+    });
+  </script>
+
+  <script>
+    jQuery(function ($) {
+      $(".project-drop > button").click(function () {
+        $(".external-link-menu").slideUp(200);
+        if ($(this).parent().hasClass("active")) {
+          $(".project-drop").removeClass("active");
+          $(this).parent().removeClass("active");
+        } else {
+          $(".project-drop").removeClass("active");
+          $(this).next(".external-link-menu").slideDown(200);
+          $(this).parent().addClass("active");
+        }
+      });
+    });
+  </script>
+</html>

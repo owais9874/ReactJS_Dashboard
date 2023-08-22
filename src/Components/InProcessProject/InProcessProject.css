@@ -1,0 +1,147 @@
+section.project-inprocess {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .inprocess-img img {
+    width: 100%;
+    height: 350px;
+  }
+  .inprocess-featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .featured-degree span {
+    color: #b5b5c3 !important;
+    font-weight: 600;
+  }
+  .featured-degree h3 {
+    color: #3f4254 !important;
+    font-size: 25px;
+    font-weight: 600 !important;
+  }
+  .inprocess-btn {
+    color: #009ef7;
+    background-color: #f1faff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+  }
+  .manager-budget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .manager {
+    display: flex;
+    align-items: center;
+  }
+  .manager-budget .manager img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .manager-name {
+    display: inline-grid;
+    padding-left: 10px;
+  }
+  .manager-name span {
+    color: #b5b5c3 !important;
+    font-size: 12px;
+  }
+  .manager-name a {
+    color: #3f4254 !important;
+    font-weight: 600 !important;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+  }
+  .manager-name a:hover {
+    color: #009ef7 !important;
+    transition: 0.3s;
+  }
+  
+  .manager-budget .Budget {
+    display: flex;
+    align-items: center;
+  }
+  .manager-budget .Budget svg {
+    background-color: #50cd89;
+    color: #cdcdde;
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  .inprocess-txt {
+    color: #7e8299;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 20px 0px;
+  }
+  .date-budget {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  .due-date {
+    display: inline-grid;
+    padding: 10px 135px 10px 13px;
+    border: 1px dashed;
+    color: #5e6278 !important;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .project-price {
+    display: inline-grid;
+    padding: 10px 135px 10px 13px;
+    border: 1px dashed;
+    color: #5e6278 !important;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .date-budget span {
+    color: #b5b5c3;
+    font-size: 13px;
+    font-weight: 500 !important;
+  }
+  .all-manager-img-proj {
+    padding-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .all-manager-img-proj ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+  }
+  .all-manager-img-proj ul li a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .all-manager-img-proj a.project-view {
+    color: #009ef7 !important;
+    font-weight: 600 !important;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .all-manager-img-proj a.project-view svg {
+    padding-left: 5px;
+    font-size: 20px;
+    transition: 0.3s;
+    color: #cdcdde !important;
+  }
+  .all-manager-img-proj a.project-view:hover svg {
+    color: #009ef7 !important;
+  }
+  

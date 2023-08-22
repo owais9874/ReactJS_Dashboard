@@ -1,0 +1,64 @@
+
+.projects-state {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 69%;
+  }
+  .state-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 35px;
+  }
+  .state-update h3 {
+    margin: 0px !important;
+    color: #3f4254;
+    font-weight: 700;
+    font-size: 1.279rem !important;
+  }
+  .state-update span {
+    color: #b5b5c3;
+    font-size: 1.075rem !important;
+  }
+  .state-history a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #7e8299 !important;
+    background-color: #f5f8fa !important;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  .projects-state-details ul {
+  list-style: none;
+  margin: 0px !important;
+  display: flex;
+  align-items: center;
+  color: #b5b5c3 !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+  padding: 10px 0px !important;
+}
+li.state-item {
+  width: 25%;
+}
+li.state-budget {
+  width: 15%;
+  text-align: end;
+}
+li.state-progress {
+  width: 18%;
+  text-align: end;
+}
+li.state-status {
+  width: 20%;
+  text-align: end;
+}
+li.state-chart {
+  width: 12%;
+  text-align: end;
+}
+li.state-view {
+  width: 10%;
+  text-align: end;
+}

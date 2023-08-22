@@ -1,0 +1,59 @@
+.fixed-header .app-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+header.app-header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  background-color: #1e1e2d;
+  transition: all 0.3s;
+}
+.logo-topbar {
+  padding: 0 1.5rem;
+  height: 80px;
+  width: 280px;
+  display: flex;
+  background-color: #1a1a27;
+  justify-content: space-between;
+  align-items: center;
+}
+button.sdmenu-link {
+  font-size: 40px;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+.topbar-menu-icon {
+  flex: 1 1;
+  padding: 0 1.5rem;
+  height: 80px;
+}
+header .topbar-menu-icon ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  height: 80px;
+}
+
+header .topbar-menu-icon ul li {
+  padding: 20px;
+}
+
+header .topbar-menu-icon ul li:hover a {
+  color: #ffffff;
+}
+
+header .topbar-menu-icon ul li a {
+  color: #888c9f;
+  text-decoration: none;
+  font-size: 1.075rem !important;
+  font-weight: 500;
+}

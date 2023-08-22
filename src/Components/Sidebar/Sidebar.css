@@ -1,0 +1,197 @@
+/*----------------main-sidebar----------------*/
+.main-sidebar {
+  height: auto;
+}
+
+/*----------------sidebar-wrapper----------------*/
+.fixed-sidebar .sidebar-wrapper {
+  height: 100vh;
+  position: fixed;
+}
+.sidebar-wrapper {
+  width: 280px;
+  top: 0;
+  left: -300px;
+  z-index: 8;
+  background-color: #1e1e2d;
+  padding-top: 80px;
+}
+
+.sidebar-wrapper ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*----------------sidebar-content----------------*/
+.sidebar-content {
+  height: 100%;
+  margin-top: 10px;
+  max-height: inherit;
+  overflow-y: overlay;
+  position: relative;
+}
+
+/*--------------------sidebar-brand----------------------*/
+.sidebar-wrapper .sidebar-brand {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #1a1a27;
+  justify-content: space-between;
+}
+
+/*----------------------sidebar-menu-------------------------*/
+
+.sidebar-wrapper .sidebar-menu .header-menu span {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 15px 20px 5px 20px;
+  display: inline-block;
+}
+
+/* code for button =====================================================*/
+.hkdi,
+.hkdi2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar-wrapper .sidebar-menu ul li .hkdi a,
+.sidebar-wrapper .sidebar-menu ul li a {
+  color: #818896;
+  background-color: #1e1e2d;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: none;
+  text-decoration: none;
+  position: relative;
+  padding: 12px 30px 12px 20px;
+}
+.sidebar-wrapper .sidebar-menu ul li svg {
+  margin-right: 10px;
+  font-size: 22px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.sidebar-menu ul li.sidebar-dropdown:hover .hkdi a,
+.sidebar-menu ul li.sidebar-dropdown:hover .hkdi,
+.sidebar-menu ul li.submenu-dropdown:hover .hkdi2 a,
+.sidebar-menu ul li.submenu-dropdown:hover .hkdi2,
+.sidebar-menu ul li.sidebar-dropdown.active .hkdi a,
+.sidebar-menu ul li.sidebar-dropdown.active .hkdi,
+.sidebar-menu ul li.submenu-dropdown.active .hkdi2 a,
+.sidebar-menu ul li.submenu-dropdown.active .hkdi2 {
+  color: #ffffff !important;
+  background-color: #1b1b28 !important;
+  transition: 0.3s;
+}
+.sidebar-submenu ul li a {
+  padding-left: 50px !important;
+}
+
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown.active > .hkdi .arrowRight,
+.sidebar-wrapper .sidebar-menu .submenu-dropdown.active > .hkdi2 .arrowRight {
+  transform: rotate(90deg);
+  transition: 0.3s;
+  right: 17px;
+}
+
+/* end code for dropdown =====================================================*/
+
+.sidebar-wrapper .sidebar-menu ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  padding: 12px 30px 12px 20px;
+}
+
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu ul {
+  padding: 5px 0;
+}
+
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li {
+  position: relative;
+  margin: 3px 0px;
+}
+
+.sidebar-menu ul li .sidebar-submenu ul li.defaultactive:hover a,
+li.defaultactive a.active {
+  position: relative;
+  background-color: #db1430 !important;
+  color: #ffffff !important;
+}
+
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a:before {
+  content: "O";
+  font-weight: 400;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.sidebar-wrapper .sidebar-menu .sidebar-submenu {
+  display: none;
+}
+
+.submenu-inner-menu {
+  display: none;
+}
+
+.submenu-inner-menu ul li a {
+  padding-left: 70px !important;
+}
+
+/*------scroll bar sidebar---------------------*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #525965;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #525965;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #525965;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: transparent;
+}
+::-webkit-scrollbar-track:active {
+  background: transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/*-----------------------------main-------------------------------------------------*/
+.main .sidebar-wrapper .sidebar-menu ul li a {
+  color: #818896;
+}
+
+.main .sidebar-wrapper .sidebar-header .user-info {
+  color: #ffffff;
+  background-color: #1b1b28;
+}
+
+.main .sidebar-wrapper ul li:hover a i,
+.main .sidebar-wrapper .sidebar-menu .header-menu span,
+.main .sidebar-wrapper .sidebar-dropdown .sidebar-submenu li a:hover:before {
+  color: #ffffff !important;
+}

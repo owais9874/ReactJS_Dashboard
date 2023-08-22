@@ -1,0 +1,83 @@
+.all-pr-card {
+  background-color: #ffffff;
+  height: 230px;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+.earning-project {
+  display: flex;
+}
+.earning-project span {
+  padding: 5px 3px 0px 0px;
+  font-size: 18px;
+}
+h3.earning-count {
+  color: #181c32 !important;
+  margin: 0px;
+  font-size: 2.5rem !important;
+  font-weight: 600;
+}
+.earning-card {
+  padding-top: 40px;
+}
+/* earning chart cycle CSS */
+.earning-cycle .chartcycle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chartcycle #canvas1 {
+  width: 90px !important;
+  height: 90px !important;
+  margin: 0px;
+  background-color: transparent !important;
+  position: absolute;
+  top: -8px;
+  left: 0px;
+}
+/* chart cycle CSS end */
+.earning-service {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px 5px 30px;
+  position: relative;
+}
+.earning-service1:before {
+  content: "";
+  height: 5px;
+  width: 8px;
+  border-top: 3px solid;
+  position: absolute;
+  left: 5px;
+  top: 12px;
+  color: #50cd89;
+}
+.earning-service2:before {
+  content: "";
+  height: 5px;
+  width: 8px;
+  border-top: 3px solid;
+  position: absolute;
+  left: 5px;
+  top: 12px;
+  color: #009ef7;
+}
+.earning-service3:before {
+  content: "";
+  height: 5px;
+  width: 8px;
+  border-top: 3px solid;
+  position: absolute;
+  left: 5px;
+  top: 12px;
+  color: #e4e6ef;
+}
+.all-earning-service span.service-price {
+  color: #5e6278 !important;
+  font-weight: 700 !important;
+}
+.project-earning span {
+  color: #b5b5c3;
+  font-weight: 600 !important;
+}

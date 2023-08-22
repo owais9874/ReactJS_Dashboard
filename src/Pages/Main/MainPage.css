@@ -1,0 +1,22 @@
+.fixed-header .app-main {
+  padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+.all-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.projects-stats-chart {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}

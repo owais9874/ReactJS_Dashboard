@@ -1,0 +1,85 @@
+.stats-chart {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* display: inline-block;
+    margin-right: 0px !important; */
+  }
+  .state-price {
+    padding-bottom: 20px;
+  }
+  .state-price h3 {
+    display: flex;
+    margin: 0px !important;
+    color: #3f4254;
+    font-weight: 700;
+    font-size: 2.1rem !important;
+  }
+  .state-price h3 span {
+    padding: 5px 5px 0px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #b5b5c3;
+  }
+  .state-price span {
+    color: #b5b5c3;
+    font-size: 1.075rem !important;
+  }
+  .state-btn {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .state-tabs.active {
+    color: #ffffff !important;
+    background-color: #f1416c !important;
+    border-radius: 5px !important;
+  }
+  .state-tabs {
+    color: #6d6d80 !important;
+    border-radius: 5px !important;
+  }
+  .state-tabs:hover {
+    background-color: #f1416c !important;
+    border-radius: 5px !important;
+    color: #ffffff !important;
+  }
+  /* for apexchart */
+  .apexcharts-toolbar {
+    display: none !important;
+  }
+  .state-details ul {
+    padding: 10px 0px !important;
+    margin: 0px !important;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+  li.state-time {
+    width: 40%;
+  }
+  li.state-time a {
+    color: #6d6d80;
+    text-decoration: none;
+  }
+  li.state-total {
+    text-align: end;
+    width: 35%;
+    color: #3f4254;
+  }
+  li.state-danger {
+    color: #f1416c;
+    width: 25%;
+    text-align: end;
+  }
+  li.state-success {
+    color: #50cd89;
+    width: 25%;
+    text-align: end;
+  }
+  li.state-primary {
+    width: 25%;
+    text-align: end;
+    color: #009ef7;
+  }
+  

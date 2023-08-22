@@ -1,0 +1,21 @@
+.apexchart {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+.performance-btn-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.performance-today h3 {
+  margin: 0px !important;
+  font-size: 1.275rem;
+  font-weight: 600;
+  color: #181c32 !important;
+}
+.performance-today span {
+  color: #b5b5c3 !important;
+  font-weight: 500;
+  font-size: 0.95rem !important;
+}

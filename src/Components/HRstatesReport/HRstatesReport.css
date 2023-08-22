@@ -1,0 +1,11 @@
+.hr-stats-report {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 70%;
+  display: inline-block;
+  margin-left: 10px;
+}
+div#lastchart div {
+  height: 350px !important;
+}
