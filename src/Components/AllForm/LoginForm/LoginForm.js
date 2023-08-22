@@ -49,52 +49,6 @@ const LoginForm = () => {
             Login
           </Button>
         </Form>
-
-        {/* <Form>
-        <h2 className="text-center">Registration</h2>
-        <Form.Group size="lg" controlId="txt">
-          <Form.Label>First Name</Form.Label>
-          <Form.Control placeholder="First name" />
-        </Form.Group>
-
-        <Form.Group size="lg" controlId="txt">
-          <Form.Label>Last Name</Form.Label>
-          <Form.Control placeholder="Last name" />
-        </Form.Group>
-
-        <Form.Group controlId="email">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-        </Form.Group>
-
-        <Form.Group controlId="password">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
-        </Form.Group>
-
-        <Form.Group controlId="password">
-          <Form.Label>Confirm Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
-        </Form.Group>
-
-        <Form.Group controlId="City">
-          <Form.Label>City</Form.Label>
-          <Form.Control />
-        </Form.Group>
-
-        <Form.Group controlId="phone">
-          <Form.Label>Phone Number</Form.Label>
-          <Form.Control type="number" placeholder="Phone" />
-        </Form.Group>
-
-        <Form.Group className="mb-3" id="formGridCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
-
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
-      </Form> */}
       </div>
     </main>
   );

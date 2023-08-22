@@ -14,7 +14,7 @@ export const options = {
   title: "$69,700 Projects Earnings in September",
   pieHole: 0.4,
   is3D: false,
-  chartArea: { width: "100%", height: "200px" },
+  chartArea: { width: "70%", height: "200px" },
 };
 
 const DonutChart = () => {
@@ -22,8 +22,8 @@ const DonutChart = () => {
     <div>
       <Chart
         chartType="PieChart"
-        width="100%"
-        height="200px"
+        // width="70%"
+        // height="200px"
         data={data}
         options={options}
       />
