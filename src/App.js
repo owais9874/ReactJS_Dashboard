@@ -11,10 +11,10 @@ function App() {
       <Navbar />
       <Sidebar />
       <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/main" element={<MainPage />} />
-        <Route path="/login" element={<LoginForm />} />
-        <Route path="/signUp" element={<SignUp />} />
+        <Route path="/demos/react_js/Dashboard-owais" element={<MainPage />} />
+        <Route path="/demos/react_js/Dashboard-owais/main" element={<MainPage />} />
+        <Route path="/demos/react_js/Dashboard-owais/login" element={<LoginForm />} />
+        <Route path="/demos/react_js/Dashboard-owais/signUp" element={<SignUp />} />
       </Routes>
     </Router>
   );
