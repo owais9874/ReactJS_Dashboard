@@ -12,6 +12,7 @@ function App() {
       <Sidebar />
       <Routes>
         <Route path="/" element={<MainPage />} />
+        <Route path="/main" element={<MainPage />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="/signUp" element={<SignUp />} />
       </Routes>
