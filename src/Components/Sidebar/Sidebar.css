@@ -119,11 +119,15 @@
   margin: 3px 0px;
 }
 
-.sidebar-menu ul li .sidebar-submenu ul li.defaultactive:hover a,
+.sidebar-menu ul li .sidebar-submenu ul li.defaultactive:hover a{
+  background-color: #333 !important;
+  transition: 0.3s;
+}
 li.defaultactive a.active {
   position: relative;
   background-color: #db1430 !important;
   color: #ffffff !important;
+  transition: 0.3s;
 }
 
 .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a:before {
