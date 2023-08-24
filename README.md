@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+The [Click here with live demo](https://owais-reactdashboard.netlify.app/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
