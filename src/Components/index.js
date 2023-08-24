@@ -9,3 +9,4 @@ export { default as AvgEarningChart } from "./AvgEarningChart/AvgEarningChart";
 export { default as StatesAndHistory } from "./StatesAndHistory/StatesAndHistory";
 export { default as WarePhaseStats } from "./WarePhaseStats/WarePhaseStats";
 export { default as HRstatesReport } from "./HRstatesReport/HRstatesReport";
+export { default as UserProfile } from "./UserProfile/UserProfile";

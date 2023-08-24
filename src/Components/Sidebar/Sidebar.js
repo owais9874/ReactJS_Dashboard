@@ -60,7 +60,7 @@ const Sidebar = () => {
               </li>
               <li className="sidebar-dropdown">
                 <div className="hkdi">
-                  <a href="#a">
+                  <a href="#User">
                     <FaUser />
                     <span>User Profile</span>
                   </a>
@@ -69,7 +69,7 @@ const Sidebar = () => {
                 <div className="sidebar-submenu">
                   <ul>
                     <li className="defaultactive">
-                      <a href="#a">Overview</a>
+                      <Link to="myProfile">My Profile</Link>
                     </li>
                     <li className="defaultactive">
                       <a href="#a">Projects</a>
