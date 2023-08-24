@@ -42,7 +42,7 @@ const Sidebar = () => {
                 <div className="sidebar-submenu" style={{ display: "block" }}>
                   <ul>
                     <li className="defaultactive">
-                      <Link to="/demos/react_js/Dashboard-owais/main" className="active">
+                      <Link to="/demos/react_js/Dashboard-owais" className="active">
                         Main
                       </Link>
                     </li>
