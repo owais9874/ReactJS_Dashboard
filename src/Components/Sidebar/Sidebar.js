@@ -31,7 +31,7 @@ const Sidebar = () => {
         <div className="sidebar-content">
           <div className="sidebar-menu">
             <ul>
-              <li className="sidebar-dropdown active">
+              <li className="sidebar-dropdown">
                 <div className="hkdi">
                   <a href="#Dashboard">
                     <BiGrid />

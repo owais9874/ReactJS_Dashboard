@@ -13,15 +13,16 @@ import {
 } from "react-icons/bi";
 import { BsList, BsX } from "react-icons/bs";
 import { FaMoon } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <header className="app-header topbar-dashboard page-conten">
       <div className="logo-topbar">
-        <a href="/demos/react_js/Dashboard-owais">
+        <Link to="demos/react_js/Dashboard-owais">
           <img src={logoMain} alt="" />
-        </a>
+        </Link>
         <div className="fgr" onClick={() => setShowMediaIcons(!showMediaIcons)}>
           {showMediaIcons ? (
             <button type="button" id="show-sidebar" className="sdmenu-link">
