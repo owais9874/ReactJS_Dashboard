@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <header className="app-header topbar-dashboard page-conten">
       <div className="logo-topbar">
-        <Link to="demos/react_js/Dashboard-owais">
+        <Link to="/">
           <img src={logoMain} alt="" />
         </Link>
         <div className="fgr" onClick={() => setShowMediaIcons(!showMediaIcons)}>

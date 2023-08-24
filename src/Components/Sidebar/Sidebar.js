@@ -42,15 +42,15 @@ const Sidebar = () => {
                 <div className="sidebar-submenu" style={{ display: "block" }}>
                   <ul>
                     <li className="defaultactive">
-                      <Link to="/demos/react_js/Dashboard-owais" className="active">
+                      <Link to="/main" className="active">
                         Main
                       </Link>
                     </li>
                     <li className="defaultactive">
-                      <Link to="/demos/react_js/Dashboard-owais/login"> Login</Link>
+                      <Link to="login"> Login</Link>
                     </li>
                     <li className="defaultactive">
-                      <Link to="/demos/react_js/Dashboard-owais/signUp">Registration</Link>
+                      <Link to="signUp">Registration</Link>
                     </li>
                   </ul>
                 </div>
