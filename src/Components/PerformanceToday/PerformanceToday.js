@@ -16,7 +16,7 @@ const PerformanceToday = () => {
           <div class="filter-btn">
             <input
               style={{ outline: "none", border: "none" }}
-              type="date"
+              type="dateTime"
               ref={dateInputRef}
             />
           </div>
